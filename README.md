@@ -1,13 +1,9 @@
 # 📊 Sales KPI Command Center
 ### A Power BI Dashboard Project
 
----
-
 ## Overview
 
 An interactive sales performance dashboard built in Power BI to give sales leaders an instant read on business health across revenue, pipeline, and team performance. This was a personal project built from scratch to practice data modelling, DAX, and dashboard design in Power BI.
-
----
 
 ## Dashboard Features
 
@@ -20,8 +16,6 @@ An interactive sales performance dashboard built in Power BI to give sales leade
 | % Revenue Attainment by Sales Rep | Bar chart ranking rep performance against individual targets |
 | Deals Closed by Month | Line chart showing sales velocity across the year |
 | Win Rate by Region | Filled map of South African provinces shaded by win rate |
-
----
 
 ## Data Model
 
@@ -38,8 +32,6 @@ DateTable (centre)
 **Pipeline** — 200 deals with Stage, Deal Value, Close Date and Won status
 
 **Monthly Targets** — monthly quota per sales rep across 5 regions for the full year
-
----
 
 ## DAX Measures
 
