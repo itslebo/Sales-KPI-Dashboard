@@ -1,9 +1,11 @@
 # 📊 Sales KPI Command Center
 ### A Power BI Dashboard Project
 
+
 ## Overview
 
 An interactive sales performance dashboard built in Power BI to give sales leaders an instant read on business health across revenue, pipeline, and team performance. This was a personal project built from scratch to practice data modelling, DAX, and dashboard design in Power BI.
+
 
 ## Dashboard Features
 
@@ -62,7 +64,6 @@ SUMX(
 )
 ```
 
----
 
 ## Tools Used
 
@@ -71,7 +72,7 @@ SUMX(
 - **DAX** — DIVIDE, CALCULATE, COUNTROWS, FILTER, SUMX, TREATAS, SUMX
 - **Excel** — sample data source (Python/openpyxl generated)
 
----
+
 
 ## Dataset
 
@@ -84,13 +85,13 @@ Sample data covering:
 
 All data was generated programmatically for demonstration purposes.
 
----
+
 
 ## Key Learnings
 
 Getting the date relationships right between the Sales and Monthly Targets tables was the most challenging part of this project. The Monthly Targets table operates at month level while Sales operates at day level — bridging these correctly using a central DateTable and Month Key taught me a lot about how Power BI handles filter context and time intelligence.
 
----
+
 
 ## Files
 
@@ -99,8 +100,5 @@ Getting the date relationships right between the Sales and Monthly Targets table
 | `Sales_KPI_Command_Center.pbix` | Power BI report file |
 | `Sales_KPI_Command_Center.xlsx` | Source data (Sales, Pipeline, Monthly Targets) |
 
----
-
-## Author - Lebo
 
 Built as a personal learning project to develop hands-on Power BI skills from data modelling through to dashboard design and publishing.
